@@ -6,7 +6,7 @@
 cask "mla" do
   version "0.2.27"
 
-  sha256 "0b853bde3ca90de276f91146ee31e5b164b3e1c4fd8076704c277209c87635df"
+  sha256 "9875a7ef5e6958363cc4764c286cfba924381236754a4547ae843719d8e7f14d"
 
   url "https://storage.googleapis.com/meetless-public/cli/releases/download/v#{version}/mla-aarch64-apple-darwin.tar.gz"
   name "Meetless CLI"
