@@ -13,6 +13,8 @@ cask "mla" do
   desc "Change-governance CLI (mla) for product delivery"
   homepage "https://meetless.ai"
 
+  deprecate! date: "2026-10-26", because: :discontinued
+
   depends_on arch: :arm64
 
   binary "mla"
@@ -29,7 +31,6 @@ cask "mla" do
   end
 
   caveats <<~CAVEATS
-    The mla command is now on your PATH via Homebrew.
-    Get started:  mla --help
+    mla is discontinued (2026-10-26) and no longer supported or updated.
   CAVEATS
 end
